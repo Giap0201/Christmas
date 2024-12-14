@@ -1,0 +1,92 @@
+.section-2 .container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-2 .container span {
+  color: rgb(191, 16, 16);
+}
+
+.section-2 .container .box1 {
+  width: 65%;
+}
+
+.section-2 .container .box {
+  width: 35%;
+}
+
+.section-2 .container .box1 .inner-hoten,
+.inner-email,
+.inner-noidung {
+  display: flex;
+  margin-top: 20px;
+}
+
+.section-2 .container label {
+  color: #565656;
+  width: 20%;
+  font-size: 0.9rem;
+}
+
+.section-2 .container input {
+  border: 1px solid #bab8b8;
+  width: 100%;
+  outline: none;
+  padding: 14px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.section-2 .container #noidung {
+  height: 120px;
+}
+
+.section-2 .container .inner-noidung {
+  margin-bottom: 20px;
+}
+
+.section-2 .container .inner-button {
+  text-align: right;
+
+}
+
+.section-2 .box2 .inner-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-2 .box2 .inner-addres,
+.inner-contact,
+.inner-email2 {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.section-2 .box2 .inner-email2 {
+  margin-bottom: 20px;
+}
+
+.section-2 .box2 p {
+  color: #565656;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.section-2 .box2 .inner-icon {
+  display: flex;
+  gap: 14px;
+}
+
+.section-2 .box2 .bx {
+  cursor: pointer;
+}
+
+.section-2 .box2 .inner-icon .bx {
+  font-size: 1.3rem;
+  color: #565656;
+  cursor: pointer;
+}
